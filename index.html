@@ -4,7 +4,9 @@
 	<meta charset="utf-8">
 	<title>漫画台</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bxslider/jquery.bxslider.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="swiperlbt/css/certify.css">
+	<link rel="stylesheet" type="text/css" href="swiperlbt/css/swiper.min.css">
 </head>
 <body>
 	<header class="main-header">
@@ -27,13 +29,30 @@
 		</div>
 	</header>
 	<section class="main-container">
-		<div class="bxslider">
-			<div><img src="images/nav1.png"></div>
-			<div><img src="images/nav2.png"></div>
+<!-- 		<div class="acg-carousel">
+			<ul class="bxslider">
+				<li><img src="images/nav1.png"></li>
+				<li><img src="images/nav2.png"></li>
+			</ul>
+		</div> -->
+		<div id="certify">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/nav1.png" /><p>Picture information 1</p></div>
+					<div class="swiper-slide"><img src="images/nav2.png" /><p>Picture information 2</p></div>
+					<div class="swiper-slide"><img src="images/nav3.png" /><p>龙女重生复仇情陷三世纠葛</p></div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
 		</div>
 	</section>
 </body>
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<!-- <script type="text/javascript" src="swiperlbt/js/jquery.min.js"></script> -->
+
+<!-- <script type="text/javascript" src="bxslider/jquery.bxslider.min.js"></script> -->
+<script type="text/javascript" src="swiperlbt/js/swiper.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </html>
