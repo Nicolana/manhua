@@ -1,0 +1,31 @@
+.icon-wechat{
+	background: url(../images/sns-sprites-new.png) no-repeat;
+	background-position: -136px 0;
+}
+
+.icon-qq{
+	background: url(../images/sns-sprites-new.png) no-repeat;
+	background-position: -68px 0;
+}
+
+.icon-weibo{
+	background: url(../images/sns-sprites-new.png) no-repeat;
+	background-position: -102px 0;
+}
+
+.icon-login{
+	width: 30px;
+	height: 31px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.login-context{
+	width: 500px;
+	height: 500px;
+	background-color: blue;
+	position: fixed;
+	top: 200px;
+	left: 444px;
+	z-index: 1000000;
+}

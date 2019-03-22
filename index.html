@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="swiperlbt/css/certify.css">
 	<link rel="stylesheet" type="text/css" href="swiperlbt/css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 	<header class="main-header">
@@ -384,21 +385,100 @@
 	</section>
 	<footer class="footer">
 		<div class="footer-content">
-			<div class="about-us">
-				<h2>关于我们</h2>
-				<div class=""></div>
+			<!-- 关于我们 -->
+			<div class="foot-box">
+				<h2 class="foot-box-title">关于我们</h2>
+				<div class="foot-box-items">
+					<ul>
+						<li><a href="#">ACG简介</a></li>
+						<li><a href="#">友情链接</a></li>
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">加入我们</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="business-cooperation"></div>
-			<div class="contact-us"></div>
-			<div class="follow-us"></div>
+
+			<!-- 商务合作 -->
+			<div class="foot-box">
+				<h2 class="foot-box-title">商务合作</h2>
+				<div class="foot-box-items">
+					<ul>
+						<li><a href="#">版权合作</a></li>
+						<li><a href="#">市场合作</a></li>
+						<li><a href="#">项目合作</a></li>
+						<li><a href="#">投稿指南</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 联系我们 -->
+			<div class="foot-box">
+				<h2 class="foot-box-title">联系我们</h2>
+				<div class="foot-box-items">
+					<ul>
+						<li>电话: 021-56841526</li>
+						<li>客服邮箱: kefu@xiaomingtaiji.com</li>
+						<li>官方QQ： 332865211</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 关注我们 -->
+			<div class="foot-box">
+				<h2 class="foot-box-title">关注我们</h2>
+				<div class="foot-box-items">
+					<ul>
+						<li><a href="#"><i class="fa fa-weixin"></i></a></li>
+						<li><a href="#"><i class="fa fa-qq"></i></a></li>
+						<li><a href="#"><i class="fa fa-weibo"></i></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class="copyright"></div>
+		<div class="copyright">
+			Copyright © 2019 谭婷毕业设计      学号：15112068     学院：艺术设计学院
+		</div>
 	</footer>
+
+	<!-- 登录界面 -->
+	<div class="login-context">
+		<div class="login-title">
+			<i class="icon icon-logo"></i>
+			<label class="login-title-text">欢迎成为ACG一员</label>
+		</div>
+		<form method="post" action="" class="login-classic" id="1233123123">
+			<div class="row">
+				<input type="text" name="username" placeholder="请输入登录账号" id="username">
+			</div>
+			<div class="row">
+				<input type="password" name="password" placeholder="请输入密码" id="password">
+			</div>
+			<div class="row">
+				<div class="row-left">
+				<input type="checkbox" name="agreement" value="false">
+				<label class="aggrement" for="agreement">我同意ACG服务条款</label>
+				</div>
+				<a href="#" target="_blank" class="row-right">忘记密码？</a>
+			</div>
+			<div class="row">
+				<button class="u-btn u-btn-green">登录</button>
+			</div>
+			<div class="row">
+				<a href="#">没有账号？免费注册 ></a>
+			</div>
+		</form>
+		<div class="login-switch">
+			<ul>
+				<li><a href="#"><i class="icon-login icon-wechat"></i></a></li>
+				<li><a href="#"><i class="icon-login icon-qq"></i></a></li>
+				<li><a href="#"><i class="icon-login icon-weibo"></i></a></li>
+			</ul>
+		</div>
+	</div>
 </body>
 <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-<!-- <script type="text/javascript" src="swiperlbt/js/jquery.min.js"></script> -->
-
 <script type="text/javascript" src="bxslider/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="swiperlbt/js/swiper.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
 </html>
