@@ -1,15 +1,20 @@
-// $(function(){
-// 	// var screenWidth = window.screen.width;
-// 	$(".bxslider").bxSlider({
-// 		mode: 'horizontal',
-// 		// captions: true,
-// 		// slideWidth: screenWidth,
-// 		infiniteLoop: true,
-// 		hideControlOnEnd: false,
-// 		controls: true,
-// 		shrinkItems: true
-// 	})
-// });
+$(function(){
+	// var screenWidth = window.screen.width;
+	$(".bxslider").bxSlider({
+		mode: 'horizontal',
+		// captions: true,
+		// slideWidth: screenWidth,
+		infiniteLoop: true,
+		controls: true,
+		shrinkItems: true,
+		slideWidth: 200,
+		slideMargin: 20,
+		moveSlides: 2,
+		minSlides: 2,
+		maxSlides: 5,
+		pager: false,
+	})
+});
 
 var certifySwiper = new Swiper('#certify .swiper-container', {
 	watchSlidesProgress: true,

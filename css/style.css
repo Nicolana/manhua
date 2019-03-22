@@ -5,6 +5,7 @@
 
 body{
 	color: #989799;
+	font-family: "楷体","楷体_GB2312";
 }
 
 a{
@@ -61,3 +62,123 @@ ul, li{
 	color: #606060;
 }
 
+.main-container .acg-carousel img{
+	width: 100%;
+	max-height: 620px;
+}
+
+/* icons setting */
+.icon{
+	width: 50px;
+	height:52px;
+	display: inline-block;
+}
+
+.icon-tv{
+	background: url(../images/recmd.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-fishcar{
+	background: url(../images/new.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-guide{
+	background: url(../images/guidepost.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.icon-ballon{
+	background: url(../images/ballon.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/*
+.main-container{
+	width: 1000px;
+	margin: 0 auto;
+}*/
+
+.box{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box>.hd .title{
+	color: #FFAD89;
+	display: inline;
+	padding-top: 8px;
+	line-height: 60px;
+	font-weight: 400;
+	font-size: 28px;
+	font-family: "楷体","楷体_GB2312";
+	cursor: pointer;
+}
+
+.box>.hd .ad-pic{
+	box-shadow: 0px 8px 30px #ddd;
+}
+
+.box>.hd .ad-pic img{
+	max-width: 100%;
+}
+
+.box>.hd .ad-content{
+	color: #FFAD89;
+	font-family: "楷体","楷体_GB2312";
+	height: 70px;
+}
+
+.box>.hd .ad-title{
+	position: absolute;
+	font-weight: 400;
+	font-size: 28px;
+	left: 90px;
+}
+
+.box>.hd .ad-line{
+	width: 400px;
+	height: 1px;
+	margin-top: 17px;
+	background-color: #FFAD89;
+	position: absolute;
+	left: 315px;
+	display: inline;
+}
+
+.box>.hd .ad-author{
+	position: absolute;
+	right: 100px;
+	line-height: 35px;
+}
+
+.box>.hd .ad-description{
+	color: #606060;
+	position: absolute;
+	margin-top: 37px;
+	left: 90px
+}
+
+.bx-wrapper .bx-prev{
+	left: -54px!important;
+}
+
+.bx-wrapper .bx-next{
+	right: -54px!important;
+}
+
+.bxslider-content{
+	font-size: 16px;
+}
+
+.bxslider-more{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.bxslider-more a{
+	color: #FFAD89;
+}
