@@ -1,3 +1,9 @@
+ul,li{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
 .icon-wechat{
 	background: url(../images/sns-sprites-new.png) no-repeat;
 	background-position: -136px 0;
@@ -13,6 +19,23 @@
 	background-position: -102px 0;
 }
 
+.icon-uncheck{
+	background: url(../images/login/checkbox.png) no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.icon-checked{
+	background: url(../images/login/checkedbox.png) no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.icon-mini-logo{
+	background: url(../images/login/logo.png) no-repeat;
+	background-size: 100% 100%;
+}
+
 .icon-login{
 	width: 30px;
 	height: 31px;
@@ -20,12 +43,226 @@
 	vertical-align: middle;
 }
 
+.icon-login-large{
+	width: 60px;
+	height: 61px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon-checkbox{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* buttons setting */
+.u-btn{
+	width: 118px;
+	height: 40px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	animation: leaveBtn 1s;
+	-moz-animation: leaveBtn 1s;	/* Firefox */
+	-webkit-animation: leaveBtn 1s;	/* Safari 和 Chrome */
+	-o-animation: leaveBtn 1s;	/* Opera */
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.u-btn:hover{
+animation: btnopacityt 1s;
+-moz-animation: btnopacity 1s;	/* Firefox */
+-webkit-animation: btnopacity 1s;	/* Safari 和 Chrome */
+-o-animation: btnopacity 1s;	/* Opera */
+opacity:0.4;
+filter:alpha(opacity=40);
+}
+
+
+@keyframes btnopacity
+{
+from {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+to {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+}
+
+@-moz-keyframes btnopacity
+{
+from {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+to {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+}
+
+@-webkit-keyframes btnopacity
+{
+from {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+to {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+}
+
+@-o-keyframes btnopacity
+{
+from {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+to {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+}
+
+/* 鼠标移开动画 */
+@keyframes leaveBtn
+{
+from {
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+to {
+	opacity:1;
+	filter:alpha(opacity=100);}
+}
+
+@-moz-keyframes leaveBtn
+{
+from {
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+to {
+	opacity:1;
+	filter:alpha(opacity=100);}
+}
+
+@-webkit-keyframes leaveBtn
+{
+from {
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+to {
+	opacity:1;
+	filter:alpha(opacity=100);}
+}
+
+@-o-keyframes leaveBtn
+{
+from {
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+}
+to {
+	opacity:1;
+	filter:alpha(opacity=100);}
+}
+
+
+.u-btn-green{
+	background: url(../images/login/btn-green.png);
+	background-size: 100% 100%;
+}
+
 .login-context{
-	width: 500px;
-	height: 500px;
-	background-color: blue;
+	width: 650px;
+	/*height: 500px;*/
+	background-color: white;
 	position: fixed;
-	top: 200px;
-	left: 444px;
+	/* top: 200px; */
+	/* left: 600px; */
 	z-index: 1000000;
+	border: 1px solid #ddd;
+	box-shadow: 0px 5px 18px rgba(0,0,0,0.4);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.login-context .login-title{
+	padding: 30px 50px 10px 50px;
+	color: #FFAD89;
+}
+
+.login-context .row {
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    /* color: #ddd; */
+    font-size: 14px;
+}
+
+.login-context .row a{
+	color: rgba(0,0,0,0.4);
+}
+
+.login-context .row>input {
+    height: 38px;
+    width: 300px;
+    /* margin-bottom: 10px; */
+    border-radius: 11px;
+    border: 1px solid #ddd;
+    padding: 1px 10px 1px 29px;
+}
+
+.login-context .row-line{
+	border-bottom: 1px solid #ddd;
+}
+
+
+.login-context .row .row-left{
+	position: absolute;
+	left: 32px;
+}
+
+.login-context .row .row-right{
+	position: absolute;
+	right: 10px;
+}
+
+.login-context label.aggrement a{
+	color: #FFAD89;
+}
+
+.login-context .login-switch{
+	width: 200px;
+}
+
+.login-context .login-switch ul{
+	/* display: inline-block; */
+	display:flex;
+	justify-content:space-between;
+}
+
+.login-context .login-switch li{
+	float: left;
+	display: justify;
+	text-align-last: justify;
+	/* margin-left: 30px; */
+}
+
+.login-context .login-title{
+	width: 400px;
+}
+
+.login{
+	cursor: pointer;
 }
