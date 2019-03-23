@@ -108,6 +108,29 @@ ul, li{
 	background-size: 100% 100%;
 }
 
+.icon-arrow-black{
+	background: url(../images/arrow-right-black.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-star-1{
+	background: url(../images/stars/1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-star-2{
+	background: url(../images/stars/2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-star-3{
+	background: url(../images/stars/3.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-card{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
 
 /*
 .main-container{
@@ -347,4 +370,162 @@ ul, li{
 	color: #999999;
 	text-align: center;
 	font-size: 13px;
+}
+
+/* 排行榜页css */
+.ranking-menu{
+	width: 880px;
+	margin: 50px auto 10px auto;
+}
+
+.ranking-menu ul{
+	display:flex;
+	justify-content:space-between;
+}
+
+.ranking-menu li{
+	float: left;
+	width: 100px;
+	/*height: 100px;*/
+	/*display: justify;*/
+	/*text-align-last: justify;*/
+	border: 2px dashed #ddd;
+	text-align: center;
+	line-height: 35px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.ranking-menu li a{
+	color: #FFAD89;
+}
+
+.ranking-menu li a:hover{
+	color: #ddd;
+}
+
+.ranking-container{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.ranking-container .ranking-title{
+	color: #FFAD89;
+	margin: 16px 0 20px 38px;
+}
+
+.ranking-container .ranking-box{
+
+
+}
+
+.ranking-container .ranking-content{
+	width: 451px;
+	/*height: 200px;*/
+	border: 1px solid #ddd;
+	position: relative;
+	box-shadow:17px 12px 5px 2px #CCC;
+	float: left;
+	margin: 23px;
+}
+
+.clear{
+	clear: both;
+}
+
+.ranking-container .ranking-author{
+	background-color: #7BD195;
+	color: white;
+	padding: 20px 0 160px 20px;
+	/*border-radius: 4px;*/
+}
+
+.ranking-container .ranking-author-image img{
+	width: 70px;
+	height: 70px;
+}
+
+.ranking-container .ranking-author-image{
+	position: absolute;
+	width: 100px;
+}
+
+.ranking-container .ranking-author-content{
+	/*margin-left: 300px;*/
+	position: absolute;
+	padding-right: 20px;
+	margin-left: 100px;
+}
+
+.ranking-container .ranking-author-name{
+	line-height: 30px;
+}
+
+.ranking-container .ranking-author-more{
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.ranking-show-all{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ranking-container .ranking-author-more i{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.ranking-card{
+	/*border: 1px solid #666;*/
+	width: 450px;
+	height: 349px;
+	position: relative;
+	margin: 23px;
+	float: left;
+	box-shadow: 0px 8px 30px #ddd;
+}
+
+.ranking-card .card-cover img{
+	width: 250px;
+}
+
+.ranking-card .card-cover{
+	position: absolute;
+	left: 0;
+}
+
+.ranking-card .card-content{
+	position: absolute;
+	right: 0;
+	top: 67px;
+	width: 42%
+}
+
+.ranking-card .card-title{
+	color: #FFAD89;
+	margin-bottom: 20px;
+	line-height: 25px;
+	font-size: 20px;
+	font-family: "楷体","楷体_GB2312";
+}
+
+.ranking-card li{
+	color: #EA692B;
+}
+
+.card-author, .card-newpost, .card-fans{
+	margin-left: 5px;
+	color: #666;
+}
+
+.ranking-active{
+	background-color: #EA692B;
+}
+
+.ranking-active a{
+	color: white!important;
 }

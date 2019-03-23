@@ -22,7 +22,7 @@ var login_module = {
 			</div>
 			<div class="row row-line">
 				<div class="row-left">
-				<i class="icon-checkbox icon-uncheck" value="false"></i>
+				<i class="icon-checkbox icon-checked" value="false"></i>
 				<label class="aggrement" for="agreement"><a href="#">我同意ACG服务条款</a></label>
 				</div>
 				<a href="#" target="_blank" class="row-right">忘记密码？</a>
