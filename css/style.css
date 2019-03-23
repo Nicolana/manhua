@@ -300,12 +300,12 @@ ul, li{
 }
 
 .show-more{
-	width: 217px;
-	background-color: #56A36C;
-	color: white;
+	/*width: 217px;*/
+	/*background-color: #56A36C;*/
+	/*color: white;*/
 	text-align: center;
-	line-height: 44px;
-	border-radius: 20px;
+	/*line-height: 44px;*/
+	/*border-radius: 20px;*/
 	margin: 0 auto;
 	cursor: pointer;
 	margin-bottom: 20px;
@@ -314,6 +314,13 @@ ul, li{
 .show-more i{
 	font-size: 20px;
 	margin-left: 20px;
+}
+
+.show-more a{
+	width: 200px;
+	font-size: 14px!important;
+	color: #fff;
+	/*border-radius: 4px;*/
 }
 
 .footer{
@@ -528,4 +535,111 @@ ul, li{
 
 .ranking-active a{
 	color: white!important;
+}
+
+.ranking-reward{
+	width: 100%;
+	height: 180px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 22px;
+}
+
+.ranking-reward:hover{
+	box-shadow: 0px 8px 30px #ddd;
+}
+
+.ranking-reward .reward-num{
+	width: 48px;
+	height: 48px;
+	background-color: #F6D26C;
+	border-radius: 25px;
+	color: #D6563F;
+	text-align: center;
+	line-height: 48px;
+	font-size: 30px;
+	font-weight: 544;
+	position: absolute;
+	left: 36px;
+	margin-top: 58px;
+	-webkit-box-shadow: 0px 8px 30px #ddd;
+	box-shadow: 0px 8px 30px #ddd;
+}
+
+.ranking-reward .reward-image img{
+	width: 220px;
+	border-radius: 7px;
+}
+
+.reward-image{
+	position: absolute;
+	left: 125px;
+	margin-top: 20px;
+}
+
+.reward-content{
+	position: absolute;
+	right: 0;
+	width: 636px;
+	margin-top: 41px;
+	color: #323333;
+}
+
+.reward-content .reward-book-name{
+	line-height: 30px;
+	margin-bottom: 14px;
+}
+
+.reward-content .reward-book-author{
+	margin-top: 30px;
+	text-align: right;
+	padding-right: 22px;
+}
+
+.reward-num-1{
+	background: url(../images/cup.png) no-repeat;
+	background-size: 100% 100%;
+	width: 85px;
+	height: 82px;
+	border-radius: 25px;
+	color: #D6563F;
+	text-align: center;
+	line-height: 57px;
+	font-size: 30px;
+	font-weight: 544;
+	position: absolute;
+	left: 23px;
+	margin-top: 43px;
+/*		-webkit-box-shadow: 0px 8px 30px #ddd;
+	box-shadow: 0px 8px 30px #ddd;*/
+}
+
+.pagination{
+	/*width: 100px;*/
+	position: relative;
+	text-align: center;
+	margin-left: 326px;
+	padding-top: 20px;
+}
+
+.pagination div{
+	float: left;
+	margin-left: 10px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #F9C9D7;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.pagination div:hover{
+	-webkit-box-shadow: 0px 8px 30px #ddd;
+	box-shadow: 0px 8px 30px #ddd;
+}
+
+.ranking-title{
+	background: url(../images/bar.png) no-repeat;
+	background-size: 100px 100%;
 }
