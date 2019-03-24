@@ -1,0 +1,2115 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i");
+@import url("https://fonts.googleapis.com/css?family=Petit+Formal+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato:400");
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 100
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 200
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: bold
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: local("Helvetica Neue Regular");
+    font-weight: 100
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: local("Helvetica Neue Regular");
+    font-weight: 200
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    background: transparent
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+address,
+caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%
+}
+
+dd,
+dl,
+dt,
+li,
+ol,
+ul {
+    list-style-type: none;
+    list-style-position: outside
+}
+
+table,
+td,
+th {
+    vertical-align: top
+}
+
+nav ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+ins {
+    text-decoration: none
+}
+
+ins,
+mark {
+    background-color: #ff9;
+    color: #000
+}
+
+mark {
+    font-style: italic;
+    font-weight: 700
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+hr,
+img {
+    border: 0
+}
+
+br {
+    letter-spacing: 0
+}
+
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: 100%
+}
+
+button,
+input,
+select,
+textarea {
+    outline: 0;
+    vertical-align: middle
+}
+
+input[type=date],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
+    font-size: 100%;
+    padding: 2px;
+    border: 1px solid #809db9;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input[type=number] {
+    text-align: right
+}
+
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus {
+    border: 1px solid #ef7a00;
+    background: #fff
+}
+
+input:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    cursor: pointer
+}
+
+select {
+    font-size: 100%;
+    border: 1px solid #809db9;
+    background-color: #fff
+}
+
+button,
+input,
+textarea {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+textarea {
+    resize: vertical;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0
+}
+
+button {
+    -webkit-appearance: button;
+    border: 0;
+    border-radius: 0;
+    background: transparent
+}
+
+button,
+input[type=checkbox],
+input[type=radio] {
+    cursor: pointer
+}
+
+input[type=email],
+input[type=tel],
+input[type=text] {
+    -webkit-appearance: none;
+    border-radius: 0
+}
+
+input[type=image] {
+    vertical-align: top
+}
+
+small {
+    vertical-align: baseline
+}
+
+input[type=button],
+input[type=submit] {
+    border-radius: 0;
+    -webkit-box-sizing: content-box;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input[type=button]::-webkit-search-decoration,
+input[type=submit]::-webkit-search-decoration {
+    display: none
+}
+
+input[type=button]::focus,
+input[type=submit]::focus {
+    outline-offset: -2px
+}
+
+@media screen and (min-width:769px) {
+    html {
+        font-size: 62.5%
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 1.33333vw
+    }
+}
+
+body {
+    line-height: 1.8;
+    letter-spacing: .08em;
+    font-family: "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    color: #292929;
+    -webkit-font-feature-settings: "palt";
+    font-feature-settings: "palt";
+    background-color: #f9f9f9;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width:769px) {
+    body {
+        font-size: 1.3rem
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        font-size: 2.8rem
+    }
+}
+
+@media (-ms-high-contrast:none) {
+    html {
+        font-family: Verdana, Meiryo, sans-serif
+    }
+}
+
+@media (-ms-high-contrast:active) {
+    html {
+        font-family: Verdana, Meiryo, sans-serif
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    ::i-block-chrome,
+    body {
+        -webkit-font-feature-settings: "pkna";
+        font-feature-settings: "pkna"
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top
+}
+
+img[src$=".svg"],
+svg {
+    vertical-align: top;
+    fill: #fff
+}
+
+a {
+    color: #292929;
+    text-decoration: none
+}
+
+a,
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: transparent
+}
+
+#Header {
+    width: 100%;
+    top: 0;
+    z-index: 16
+}
+
+#Header,
+#Header .logo {
+    position: absolute;
+    left: 0
+}
+
+#Header .logo {
+    right: 0;
+    margin: 0 auto;
+    line-height: 0
+}
+
+@media screen and (min-width:769px) {
+    #Header .logo {
+        width: 157px;
+        top: 47px
+    }
+
+    #Header .logo a {
+        display: block;
+        width: 157px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: 0 -25px;
+        padding-top: 105px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Header .logo {
+        width: 17.33334vw;
+        top: 2.66667vw
+    }
+
+    #Header .logo a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 907.692% 213.953%;
+        background-position: 64.19% 26.531%
+    }
+
+    #Header .logo a:after {
+        content: "";
+        display: block;
+        padding-top: 66%
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Header .backToTop {
+        position: absolute;
+        top: 52px;
+        left: 48px
+    }
+
+    #Header .backToTop a {
+        display: block;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1
+    }
+
+    #Header .backToTop a:before {
+        content: "";
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 2px;
+        left: 42px;
+        background-color: #fffc00;
+        -webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+        -o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+        transition: all .3s cubic-bezier(.19, 1, .22, 1)
+    }
+
+    #Header .backToTop a.isHover:before {
+        width: calc(100% - 40px)
+    }
+
+    #Header .backToTop a.isHoverOut:before {
+        left: auto;
+        right: 0
+    }
+
+    #Header .backToTop i {
+        display: inline-block;
+        width: 40px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -844px -25px;
+        padding-top: 9px;
+        text-indent: -9999px;
+        overflow: hidden;
+        vertical-align: middle;
+        margin-top: -5px;
+        margin-right: 8px
+    }
+
+    #Header .backToTop span {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Header .backToTop {
+        display: none
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Header .onlineShop {
+        height: 35px;
+        overflow: hidden;
+        position: absolute;
+        top: 43px;
+        right: 49px
+    }
+
+    #Header .onlineShop button {
+        width: 156px;
+        height: 35px;
+        position: relative;
+        display: block;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: .1em;
+        font-size: 1.2rem
+    }
+
+    #Header .onlineShop button:before {
+        content: "";
+        width: 0;
+        height: 11px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 20px;
+        margin: auto;
+        background-color: #fffc00;
+        -webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+        -o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+        transition: all .3s cubic-bezier(.19, 1, .22, 1)
+    }
+
+    #Header .onlineShop button span {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 17px 0 20px;
+        background-image: url(../images/common/pc_header_bg_btn.png);
+        background-position: 0 0;
+        background-repeat: no-repeat
+    }
+
+    #Header .onlineShop ul {
+        width: 154px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 16px auto 0;
+        padding: 3px;
+        background-image: url(../images/common/pc_navi_bg.png);
+        background-color: #fff;
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75)
+    }
+
+    #Header .onlineShop ul li {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 1px
+    }
+
+    #Header .onlineShop ul li:last-of-type {
+        margin-bottom: 0
+    }
+
+    #Header .onlineShop ul li a {
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75)
+    }
+
+    #Header .onlineShop ul li a.selmedi {
+        background-position: -465px -25px
+    }
+
+    #Header .onlineShop ul li a.amazon,
+    #Header .onlineShop ul li a.selmedi {
+        display: block;
+        width: 148px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        padding-top: 52px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+
+    #Header .onlineShop ul li a.amazon {
+        background-position: -313px -25px
+    }
+
+    #Header .onlineShop ul li a.rakuten {
+        display: block;
+        width: 148px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -161px -25px;
+        padding-top: 52px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+
+    #Header .onlineShop ul li a.isHover {
+        opacity: .7
+    }
+
+    #Header .onlineShop.isHover {
+        height: 215px
+    }
+
+    #Header .onlineShop.isHover button:before {
+        width: 124px
+    }
+
+    #Header .onlineShop.isHoverOut button:before {
+        left: auto;
+        right: 12px
+    }
+
+    #Header .onlineShop.isHover ul {
+        opacity: 1;
+        pointer-events: auto
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Header .onlineShop {
+        display: none
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Header .menu {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Header .menu {
+        width: 7.2vw;
+        height: 7.2vw;
+        position: absolute;
+        top: 6.66667vw;
+        right: 6.4vw
+    }
+
+    #Header .menu:after,
+    #Header .menu:before,
+    #Header .menu i {
+        content: "";
+        width: 100%;
+        height: .26667vw;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #000;
+        -webkit-transition: all .5s cubic-bezier(.19, 1, .22, 1);
+        -o-transition: all .5s cubic-bezier(.19, 1, .22, 1);
+        transition: all .5s cubic-bezier(.19, 1, .22, 1)
+    }
+
+    #Header .menu:before {
+        top: 1.46667vw;
+        -webkit-transform-origin: right top;
+        -ms-transform-origin: right top;
+        transform-origin: right top
+    }
+
+    #Header .menu i {
+        top: 0;
+        bottom: 0
+    }
+
+    #Header .menu:after {
+        bottom: 1.46667vw;
+        -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+        transform-origin: right bottom
+    }
+
+    #Header .menu.close:before {
+        -webkit-transform: rotate(-35deg);
+        -ms-transform: rotate(-35deg);
+        transform: rotate(-35deg)
+    }
+
+    #Header .menu.close i {
+        opacity: 0
+    }
+
+    #Header .menu.close:after {
+        -webkit-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+        transform: rotate(35deg)
+    }
+}
+
+#GlobalNavi {
+    width: 100%;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 15
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi {
+        top: 0;
+        left: 0;
+        padding: 115px 84px 15px;
+        -webkit-transition: background-color .1s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: background-color .1s cubic-bezier(.25, .25, .75, .75);
+        transition: background-color .1s cubic-bezier(.25, .25, .75, .75);
+    }
+
+    #GlobalNavi.bg {
+        background-color: #fff
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi {
+        height: 0;
+        overflow: hidden;
+        top: 14.66667vw;
+        left: 0;
+        -webkit-transition: height .5s cubic-bezier(1, 0, 0, 1);
+        -o-transition: height .5s cubic-bezier(1, 0, 0, 1);
+        transition: height .5s cubic-bezier(1, 0, 0, 1)
+    }
+
+    #GlobalNavi.show {
+        height: calc(100% - 14.66667vw)
+    }
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi .bg {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi .bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff
+    }
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi .navi {
+        width: 100%;
+        max-width: 1060px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    #GlobalNavi .navi li {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto
+    }
+
+    #GlobalNavi .navi li.space {
+        pointer-events: none
+    }
+
+    #GlobalNavi .navi li.home a {
+        width: 108px
+    }
+
+    #GlobalNavi .navi li.about a,
+    #GlobalNavi .navi li.step a {
+        width: 138px
+    }
+
+    #GlobalNavi .navi li.space {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 218px;
+        -ms-flex: 1 1 218px;
+        flex: 1 1 218px
+    }
+
+    #GlobalNavi .navi li.faq a,
+    #GlobalNavi .navi li.item a {
+        width: 138px
+    }
+
+    #GlobalNavi .navi li.cm a {
+        width: 118px
+    }
+
+    #GlobalNavi .navi li.shop a {
+        width: 138px
+    }
+
+    #GlobalNavi .navi li:nth-last-of-type(2) a,
+    #GlobalNavi .navi li:nth-of-type(2) a {
+        margin: 0 16px
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi .navi {
+        position: relative;
+        margin-top: 1.86667vw;
+        padding: 0 7.86667vw
+    }
+
+    #GlobalNavi .navi:before,
+    #GlobalNavi .navi li:after {
+        content: "";
+        width: 100%;
+        height: 1.33334vw;
+        display: block;
+        background-image: url(../images/common/sp_navi_border.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 100% auto
+    }
+
+    #GlobalNavi .navi li.space {
+        display: none
+    }
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi .navi a {
+        height: 45px;
+        position: relative;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 3px
+    }
+
+    #GlobalNavi .navi a:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url(../images/common/pc_navi_bg.png);
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        opacity: 0;
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -webkit-animation: backgroundPosition 15s linear infinite;
+        animation: backgroundPosition 15s linear infinite
+    }
+
+    #GlobalNavi .navi a.active:before,
+    #GlobalNavi .navi a.isHover:before {
+        opacity: 1
+    }
+
+    #GlobalNavi .navi a i {
+        display: none
+    }
+
+    #GlobalNavi .navi a span {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 1.3rem;
+        white-space: nowrap;
+        background-color: #fff
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi .navi a {
+        width: 100%;
+        height: 17.33334vw;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 2.8rem
+    }
+
+    #GlobalNavi .navi a i {
+        width: 4vw !important;
+        height: 2.93334vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 16vw;
+        margin: auto;
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 3933.333% 836.364%;
+        background-position: 95.478% 16.049%
+    }
+
+    #GlobalNavi .navi a i:after {
+        content: "";
+        display: block;
+        padding-top: 73%
+    }
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi .sns {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi .sns {
+        width: 100%;
+        height: 22.66667vw;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+        line-height: 0
+    }
+
+    #GlobalNavi .sns dt {
+        width: 17.33334vw;
+        margin-right: 1.6vw
+    }
+
+    #GlobalNavi .sns dt span {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 907.692% 836.364%;
+        background-position: 76.952% 44.444%
+    }
+
+    #GlobalNavi .sns dt span:after {
+        content: "";
+        display: block;
+        padding-top: 16%
+    }
+
+    #GlobalNavi .sns dd {
+        margin: 0 4.26667vw
+    }
+
+    #GlobalNavi .sns dd.facebook {
+        width: 4.8vw
+    }
+
+    #GlobalNavi .sns dd.facebook a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 3277.778% 511.111%;
+        background-position: 45.455% 83.784%
+    }
+
+    #GlobalNavi .sns dd.facebook a:after {
+        content: "";
+        display: block;
+        padding-top: 100%
+    }
+
+    #GlobalNavi .sns dd.instagram {
+        width: 4.8vw
+    }
+
+    #GlobalNavi .sns dd.instagram a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 3277.778% 511.111%;
+        background-position: 48.951% 83.784%
+    }
+
+    #GlobalNavi .sns dd.instagram a:after {
+        content: "";
+        display: block;
+        padding-top: 100%
+    }
+
+    #GlobalNavi .sns dd.twitter {
+        width: 4.8vw
+    }
+
+    #GlobalNavi .sns dd.twitter a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 3277.778% 511.111%;
+        background-position: 52.448% 83.784%
+    }
+
+    #GlobalNavi .sns dd.twitter a:after {
+        content: "";
+        display: block;
+        padding-top: 100%
+    }
+}
+
+@media screen and (min-width:769px) {
+    #GlobalNavi .online_shop {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    #GlobalNavi .online_shop {
+        position: relative;
+        margin-bottom: 4vw
+    }
+
+    #GlobalNavi .online_shop button {
+        width: 76.8vw;
+        height: 12.8vw;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1;
+        font-size: 2.6rem
+    }
+
+    #GlobalNavi .online_shop button span {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 29.6vw;
+        background-image: url(../images/common/sp_header_bg_btn.png);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 100% auto
+    }
+
+    #GlobalNavi .online_shop ul {
+        width: 35.2vw;
+        position: absolute;
+        bottom: 15.46667vw;
+        left: 0;
+        right: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: auto;
+        padding: .53334vw;
+        background-image: url(../images/common/pc_navi_bg.png);
+        background-color: #fff;
+        background-position: 50% 50%;
+        background-repeat: repeat;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75)
+    }
+
+    #GlobalNavi .online_shop ul li {
+        width: 100%;
+        margin-bottom: .26667vw;
+        background-color: #fff
+    }
+
+    #GlobalNavi .online_shop ul li.selmedi {
+        width: 34.13334vw
+    }
+
+    #GlobalNavi .online_shop ul li.selmedi a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 460.938% 204.444%;
+        background-position: 0 0
+    }
+
+    #GlobalNavi .online_shop ul li.selmedi a:after {
+        content: "";
+        display: block;
+        padding-top: 35%
+    }
+
+    #GlobalNavi .online_shop ul li.amazon {
+        width: 34.13334vw
+    }
+
+    #GlobalNavi .online_shop ul li.amazon a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 460.938% 204.444%;
+        background-position: 28.139% 0
+    }
+
+    #GlobalNavi .online_shop ul li.amazon a:after {
+        content: "";
+        display: block;
+        padding-top: 35%
+    }
+
+    #GlobalNavi .online_shop ul li.rakuten {
+        width: 34.13334vw
+    }
+
+    #GlobalNavi .online_shop ul li.rakuten a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 460.938% 204.444%;
+        background-position: 0 100%
+    }
+
+    #GlobalNavi .online_shop ul li.rakuten a:after {
+        content: "";
+        display: block;
+        padding-top: 35%
+    }
+
+    #GlobalNavi .online_shop ul li:last-of-type {
+        margin-bottom: 0
+    }
+
+    #GlobalNavi .online_shop ul.show {
+        opacity: 1;
+        pointer-events: auto
+    }
+}
+
+@-webkit-keyframes backgroundPosition {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 300% 300%
+    }
+}
+
+@keyframes backgroundPosition {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 300% 300%
+    }
+}
+
+@media screen and (min-width:769px) {
+    #LeadText {
+        width: 84px;
+        height: calc(100vh - 50px);
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    #LeadText span {
+        display: inline-block;
+        width: 14px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: 0 -206px;
+        padding-top: 228px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+}
+
+@media screen and (max-width:768px) {
+    #LeadText {
+        display: none
+    }
+}
+
+@media screen and (min-width:769px) {
+    #SnsLink {
+        width: 84px;
+        height: calc(100vh - 50px);
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    #SnsLink dt {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -18px -206px;
+        padding-top: 85px;
+        text-indent: -9999px;
+        overflow: hidden;
+        padding-bottom: 100px
+    }
+
+    #SnsLink dt:after {
+        content: "";
+        width: 1px;
+        height: 55px;
+        display: block;
+        position: absolute;
+        bottom: 25px;
+        left: 8px;
+        background-color: #000
+    }
+
+    #SnsLink dd {
+        margin-bottom: 25px;
+        line-height: 0
+    }
+
+    #SnsLink dd:last-of-type {
+        margin-bottom: 0
+    }
+
+    #SnsLink dd a {
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75)
+    }
+
+    #SnsLink dd a.facebook {
+        background-position: -161px -81px
+    }
+
+    #SnsLink dd a.facebook,
+    #SnsLink dd a.instagram {
+        display: inline-block;
+        width: 20px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        padding-top: 20px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+
+    #SnsLink dd a.instagram {
+        background-position: -185px -81px
+    }
+
+    #SnsLink dd a.twitter {
+        display: inline-block;
+        width: 20px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -209px -81px;
+        padding-top: 20px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+
+    #SnsLink dd a.isHover {
+        opacity: .7
+    }
+}
+
+@media screen and (max-width:768px) {
+    #SnsLink {
+        display: none
+    }
+}
+
+#Footer {
+    position: relative;
+    z-index: 10
+}
+
+@media screen and (min-width:769px) {
+    #Footer {
+        width: 1228px;
+        overflow: hidden;
+        margin: 58px auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer {
+        overflow: hidden;
+        margin: 12.53334vw 3.2vw 8vw
+    }
+}
+
+#Footer .pagetop {
+    width: 100%
+}
+
+#Footer .pagetop a {
+    margin: 0 auto
+}
+
+@media screen and (min-width:769px) {
+    #Footer .pagetop {
+        margin-bottom: 30px
+    }
+
+    #Footer .pagetop a {
+        display: block;
+        width: 85px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -755px -25px;
+        padding-top: 18px;
+        text-indent: -9999px;
+        overflow: hidden;
+        -webkit-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        -o-transition: opacity .2s cubic-bezier(.25, .25, .75, .75);
+        transition: opacity .2s cubic-bezier(.25, .25, .75, .75)
+    }
+
+    #Footer .pagetop a.isHover {
+        opacity: .7
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .pagetop {
+        margin-bottom: 5.33334vw
+    }
+
+    #Footer .pagetop a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 967.213% 707.692%;
+        background-position: 91.871% 16.456%;
+        width: 16.26667vw;
+        margin: 0 auto
+    }
+
+    #Footer .pagetop a:after {
+        content: "";
+        display: block;
+        padding-top: 21%
+    }
+}
+
+#Footer .line {
+    width: 100%
+}
+
+@media screen and (min-width:769px) {
+    #Footer .line {
+        margin-bottom: 38px
+    }
+
+    #Footer .line span {
+        display: block;
+        width: 1149px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        padding-top: 21px;
+        text-indent: -9999px;
+        overflow: hidden;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .line {
+        width: 88vw;
+        margin-bottom: 6.13334vw
+    }
+
+    #Footer .line span {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 178.788% 836.364%;
+        background-position: 100% 0
+    }
+
+    #Footer .line span:after {
+        content: "";
+        display: block;
+        padding-top: 3%
+    }
+}
+
+#Footer .navi {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+#Footer .navi li {
+    line-height: 1.2;
+    text-align: center;
+    border-style: solid;
+    border-color: #000
+}
+
+#Footer .navi li:last-of-type {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0
+}
+
+#Footer .navi a {
+    position: relative;
+    display: block;
+    padding: 0 3px
+}
+
+#Footer .navi a:before {
+    content: "";
+    width: 0;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #fffc00;
+    -webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+    -o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+    transition: all .3s cubic-bezier(.19, 1, .22, 1)
+}
+
+#Footer .navi a.isHover:before {
+    width: 100%
+}
+
+#Footer .navi a.isHoverOut:before {
+    left: auto;
+    right: 0
+}
+
+#Footer .navi span {
+    position: relative
+}
+
+@media screen and (min-width:769px) {
+    #Footer .navi {
+        float: left;
+        margin: 10px 0 0 60px
+    }
+
+    #Footer .navi li {
+        margin-right: 14px;
+        padding-right: 14px;
+        border-right-width: 1px;
+        font-size: 1.2rem
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .navi {
+        margin-bottom: 4.8vw;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    #Footer .navi li {
+        margin-right: 2.66667vw;
+        padding-right: 2.66667vw;
+        border-right-width: .13334vw;
+        font-size: 1.8rem
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Footer .logo {
+        width: 110px;
+        position: absolute;
+        top: 96px;
+        left: 0;
+        right: 0;
+        margin: auto
+    }
+
+    #Footer .logo a {
+        display: block;
+        width: 110px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: 0 -134px;
+        padding-top: 68px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .logo {
+        width: 20vw;
+        margin: 0 auto 4.66667vw
+    }
+
+    #Footer .logo a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 786.667% 195.745%;
+        background-position: 50.485% 28.889%
+    }
+
+    #Footer .logo a:after {
+        content: "";
+        display: block;
+        padding-top: 62%
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Footer .company {
+        float: right;
+        margin-right: 60px;
+        text-align: right
+    }
+}
+
+#Footer .company .naturelab {
+    line-height: 0
+}
+
+@media screen and (min-width:769px) {
+    #Footer .company .naturelab {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        margin-bottom: 12px
+    }
+
+    #Footer .company .naturelab a {
+        display: block;
+        width: 134px;
+        height: 0;
+        background-image: url(../images/common/sprite-pc_parts.png);
+        background-repeat: no-repeat;
+        background-position: -617px -25px;
+        padding-top: 36px;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .company .naturelab {
+        width: 21.33334vw;
+        margin: 0 auto 1.06667vw
+    }
+
+    #Footer .company .naturelab a {
+        width: 100%;
+        white-space: nowrap;
+        text-indent: 100%;
+        overflow: hidden;
+        display: block;
+        font-size: 0;
+        background-image: url(../images/common/sprite-sp_parts.png);
+        background-repeat: no-repeat;
+        background-size: 737.5% 438.095%;
+        background-position: 79.216% 18.31%
+    }
+
+    #Footer .company .naturelab a:after {
+        content: "";
+        display: block;
+        padding-top: 26%
+    }
+}
+
+#Footer .company .copy {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: .04em
+}
+
+@media screen and (min-width:769px) {
+    #Footer .company .copy {
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .company .copy {
+        margin-bottom: 2vw;
+        font-size: 1.9rem;
+        text-align: center
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Footer .att {
+        position: absolute;
+        top: 146px;
+        left: 62px;
+        font-size: 1rem
+    }
+
+    #Footer .att br {
+        display: none
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Footer .att {
+        line-height: 1.4;
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: .04em
+    }
+}
+
+@media screen and (min-width:769px) {
+    body {
+        min-width: 1280px
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        min-width: 320px
+    }
+}
+
+#TopPage {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#BackgroundColor {
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+#Container {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000;
+    background-color: #fff
+}
+
+#Container:after,
+#Container:before {
+    content: "";
+    width: calc(100% + 2px);
+    display: block;
+    position: absolute;
+    left: -1px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 100
+}
+
+#Container:before {
+    background-image: url(../images/common/container_bg_top_center.png), url(../images/common/container_bg_top_left.png), url(../images/common/container_bg_top_right.png);
+    background-position: 50% 0, 0 0, 100% 0
+}
+
+#Container:after {
+    background-image: url(../images/common/container_bg_bottom_center.png), url(../images/common/container_bg_bottom_left.png), url(../images/common/container_bg_bottom_right.png);
+    /* background-position:50% 100%,0 100%,100% 100%; */
+}
+
+@media screen and (min-width:769px) {
+    #Container {
+        margin: 25px;
+        padding-top: 194px;
+        border-width: 1px
+    }
+
+    #Container:after,
+    #Container:before {
+        height: 126px
+    }
+
+    #Container:before {
+        top: -6px
+    }
+
+    #Container:after {
+        bottom: -6px
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Container {
+        margin: 2.66667vw;
+        padding-top: 17.33334vw;
+        border-width: .13334vw
+    }
+
+    #Container:after,
+    #Container:before {
+        height: 16.8vw;
+        background-size: 18.93334vw 1.6vw, 16vw 16.8vw, 16vw 16.8vw
+    }
+
+    #Container:before {
+        top: -.8vw
+    }
+
+    #Container:after {
+        bottom: -.8vw
+    }
+}
+
+#Contents {
+    position: relative
+}
+
+@media screen and (min-width:769px) {
+    #Contents {
+        min-height: calc(100vh - 493px);
+        margin: 0 84px
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Contents {
+        margin: 0 3.86667vw
+    }
+}
+
+@media screen and (min-width:769px) {
+    #Contents .page_ttl {
+        margin-top: -29px;
+        margin-bottom: 45px;
+        text-align: center
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Contents .page_ttl {
+        margin-top: -3.86666vw;
+        margin-bottom: 6.66667vw
+    }
+
+    #Contents .page_ttl img {
+        width: 100%
+    }
+}
+
+#Contents .lead_text {
+    text-align: center
+}
+
+@media screen and (min-width:769px) {
+    #Contents .lead_text {
+        margin-top: -15px;
+        margin-bottom: 70px;
+        line-height: 2.2;
+        font-size: 1.6rem
+    }
+
+    #Contents .lead_text br.sp {
+        display: none
+    }
+
+    #Contents .lead_text br.pc {
+        display: block
+    }
+}
+
+@media screen and (max-width:768px) {
+    #Contents .lead_text {
+        margin-top: 1.33334vw;
+        margin-bottom: 8vw;
+        line-height: 1.75;
+        font-size: 2.4rem
+    }
+
+    #Contents .lead_text br.sp {
+        display: block
+    }
+
+    #Contents .lead_text br.pc {
+        display: none
+    }
+}
+
+/* lang // JP / EN
+-------------------------------------------------- */
+@media screen and (min-width:769px) {
+
+    /*--- pc ---*/
+    .langSp {
+        display: none
+    }
+
+    #Header .lang {
+        position: absolute;
+        top: 51px;
+        right: 230px;
+    }
+
+    #Header .lang a {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*--- sp ---*/
+    .langPc {
+        display: none
+    }
+
+    #GlobalNavi .lang {
+        margin: 0 0 2.4vw;
+        position: relative;
+        text-align: center;
+        line-height: 3;
+        color: #292929;
+    }
+
+    #GlobalNavi .lang a {
+        text-decoration: underline;
+        color: #292929;
+    }
+}
+
+/* 
+-------------------------------------------------- */
