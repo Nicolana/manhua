@@ -991,3 +991,8 @@ to {
 input{
 	outline: none;
 }
+
+.active{
+	background: url(../images/active.png) no-repeat;
+	background-size: 100% 100%;
+}
