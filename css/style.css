@@ -994,5 +994,6 @@ input{
 
 .active{
 	background: url(../images/active.png) no-repeat;
-	background-size: 100% 100%;
+	background-size: 66px 51px;
+	background-position: 50% 0;
 }
