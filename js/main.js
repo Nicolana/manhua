@@ -61,3 +61,19 @@ var certifySwiper = new Swiper('#certify .swiper-container', {
 	}
 
 })
+
+$(".chat-like").on("click", function(){
+	var _this = $(this);
+	_this.find('i').css('color', '#D6563F');
+	var number = _this.find(".chat-number").text();
+	var addOne = parseInt(number.match(/\d/g).join("")) + 1;
+	_this.find(".chat-number").text('(' + addOne + ')');
+})
+
+// $(".chat-like").on("click", function(){
+// 	var _this = $(this);
+// 	_this.find('i').css('color', '#D6563F');
+// 	var number = _this.find(".chat-number").text();
+// 	var addOne = parseInt(number.match(/\d/g).join("")) + 1;
+// 	_this.find(".chat-number").text('(' + addOne + ')');
+// })
