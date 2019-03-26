@@ -446,6 +446,10 @@ ul, li{
 	margin: 23px;
 }
 
+.ranking-container .ranking-content:hover{
+	box-shadow:17px 12px 5px 2px #ddd;
+}
+
 .clear{
 	clear: both;
 }
@@ -503,8 +507,13 @@ ul, li{
 	margin: 23px;
 	float: left;
 	box-shadow: 0px 8px 30px #ddd;
+	cursor: pointer;
 }
 
+.ranking-card:hover{
+	box-shadow: 0px 8px 30px #ddd,
+	0px 8px 30px #666;
+}
 .ranking-card .card-cover img{
 	width: 250px;
 }
