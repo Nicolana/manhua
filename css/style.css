@@ -12,6 +12,22 @@ a{
 	text-decoration: none;
 }
 
+body::-webkit-scrollbar, body ::-webkit-scrollbar{
+	width: 8px;
+	height: 4px;
+}
+
+body::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb{
+	background-color: #ddd;
+	background-clop: padding-box;
+	min-height: 28px;
+	border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track-piece, body ::-webkit-scrollbar-track-piece{
+	background-color: transparent;
+}
+
 ul, li{
 	padding: 0;
 	margin: 0;

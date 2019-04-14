@@ -1,0 +1,110 @@
+.acg-nav-main{
+  width: 250px;
+  /* position: fixed; */
+  /* position: absolute; */
+  /* left: 20%; */
+  font-size: 12px;
+  border: 1px solid #FF6666;
+  padding: 16px;
+  float: left;
+}
+
+.acg-nav-box h2{
+  clear: both;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  /* color: #000; */
+  font-family: "KaiTi", "楷体";
+}
+
+.acg-nav-box .active{
+  background: #ff7647;
+  color: white;
+}
+
+.acg-nav-item li{
+  /* float: left; */
+  display: inline-block;
+  list-style: none;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 8px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.acg-nav-item li:hover{
+  background: #ff7647;
+  border-radius: 4px;
+  color: white;
+}
+
+.row{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.acg-nav-box{
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+.nav-box {
+    /* background: red; */
+    width: 100%;
+    /* height: 200px; */
+    float: right;
+    margin-left: -100%;
+}
+
+.nav-box-main{
+  margin-left: 290px;
+  /* height: 1000px; */
+  /* background-color: green; */
+  border: 1px solid #ddd;
+}
+
+.nav-box-item{
+  /* float: left; */
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 4px 20px 7px;
+}
+
+.nav-box-item img{
+  max-width: 165px;
+  cursor: pointer;
+}
+
+.nav-box-item h2{
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nav-box-item h2:hover{
+  color: #ddd;
+}
+
+
+.nav-box-content>div {
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav-box-content .nav-box-like{
+  float: right;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.nav-box-content .nav-box-like:hover{
+  color:#ff7647;
+}
